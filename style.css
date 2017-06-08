@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+	text-align: center;
+}
+
+body{
+	background: tan;
+	}
+
+header{
+	background: grey;
+	height: 100px;
+	width: 100%;
+	margin-bottom: 50px;
+	
+}
+
+#namebox{
+	color: white;
+	background: teal;
+	position: relative;
+	left: 10%;
+	top: 0%;
+	width: 300px;
+	height: 100%;
+}
+
+#boxheader{
+	color: teal;
+	font: 20px;
+}
+
+#sillybox{
+	background:grey;
+	height: 5px;
+}
+
+#connectbox{
+	background: white;
+	float: right;
+	width: 270px;
+	height: 500px;
+}
+
+#bodybox{
+	background: white;
+	float: left;
+	width: 960px;
+	height: 500px;
+
+}
+
+#bodyimage{
+	float: left;
+	font-size: 50px;
+}
+
+
+footer{
+	background: grey;
+	position: fixed;
+	bottom: 0%;
+	left: 0%;
+	width: 100%;
+	height: 50px;
+	border-top-color: blue;
+	border-top-width: 10px;
+}
